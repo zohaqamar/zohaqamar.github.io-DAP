@@ -4,7 +4,7 @@ function setup() {
 
 }
 
-function redraw() {
+function draw() {
 	background(0, 0, 10);
 	
 
