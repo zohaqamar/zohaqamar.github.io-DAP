@@ -1,3 +1,5 @@
+/**Zoha Qamar, zoq2001, Spring 2018**/
+
 function setup() {
 	createCanvas(800,600); // make an HTML canvas element width x height pixels
 	frameRate(1)
@@ -5,7 +7,6 @@ function setup() {
 	ranm=Math.random()
 	rans=Math.random()
 	noStroke()
-
 
 }
 
@@ -19,7 +20,7 @@ function draw() {
 	for (var x = 0; x < hour(); x +=1) {
 
 		let xhrec = x*700;
-		fill(ranh*140,0, Math.random()*255);
+		fill(ranh*240,0, Math.random(0,.4)*255);
 		rect(50+x*(750/12), 50, 10, 100) 
 
 
